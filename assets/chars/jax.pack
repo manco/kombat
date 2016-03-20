@@ -1,0 +1,173 @@
+
+jax.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+punch6
+  rotate: false
+  xy: 1, 295
+  size: 116, 141
+  orig: 116, 141
+  offset: 0, 0
+  index: -1
+punch3
+  rotate: false
+  xy: 119, 297
+  size: 117, 139
+  orig: 117, 139
+  offset: 0, 0
+  index: -1
+punch5
+  rotate: false
+  xy: 1, 151
+  size: 89, 142
+  orig: 89, 142
+  offset: 0, 0
+  index: -1
+punch2
+  rotate: false
+  xy: 238, 298
+  size: 89, 138
+  orig: 89, 138
+  offset: 0, 0
+  index: -1
+walk1
+  rotate: false
+  xy: 1, 4
+  size: 80, 145
+  orig: 80, 145
+  offset: 0, 0
+  index: -1
+punch4
+  rotate: false
+  xy: 329, 297
+  size: 85, 139
+  orig: 85, 139
+  offset: 0, 0
+  index: -1
+punch1
+  rotate: false
+  xy: 416, 298
+  size: 83, 138
+  orig: 83, 138
+  offset: 0, 0
+  index: -1
+walk2
+  rotate: false
+  xy: 501, 291
+  size: 80, 145
+  orig: 80, 145
+  offset: 0, 0
+  index: -1
+walk3
+  rotate: false
+  xy: 583, 291
+  size: 80, 145
+  orig: 80, 145
+  offset: 0, 0
+  index: -1
+walk4
+  rotate: false
+  xy: 665, 291
+  size: 80, 145
+  orig: 80, 145
+  offset: 0, 0
+  index: -1
+walk5
+  rotate: false
+  xy: 747, 291
+  size: 80, 145
+  orig: 80, 145
+  offset: 0, 0
+  index: -1
+walk6
+  rotate: false
+  xy: 829, 291
+  size: 80, 145
+  orig: 80, 145
+  offset: 0, 0
+  index: -1
+walk7
+  rotate: false
+  xy: 911, 291
+  size: 80, 145
+  orig: 80, 145
+  offset: 0, 0
+  index: -1
+walk8
+  rotate: false
+  xy: 92, 148
+  size: 80, 145
+  orig: 80, 145
+  offset: 0, 0
+  index: -1
+walk9
+  rotate: false
+  xy: 83, 1
+  size: 80, 145
+  orig: 80, 145
+  offset: 0, 0
+  index: -1
+stance1
+  rotate: false
+  xy: 174, 159
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1
+stance2
+  rotate: false
+  xy: 174, 159
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1
+stance3
+  rotate: false
+  xy: 257, 159
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1
+stance4
+  rotate: false
+  xy: 340, 159
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1
+stance5
+  rotate: false
+  xy: 165, 10
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1
+stance6
+  rotate: false
+  xy: 248, 21
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1
+stance7
+  rotate: false
+  xy: 331, 21
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1
+stance8
+  rotate: false
+  xy: 414, 21
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1
+stance9
+  rotate: false
+  xy: 497, 153
+  size: 81, 136
+  orig: 81, 136
+  offset: 0, 0
+  index: -1
