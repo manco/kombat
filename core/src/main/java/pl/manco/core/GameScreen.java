@@ -5,6 +5,7 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.ScreenAdapter;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 import java.util.function.BiConsumer;
 
@@ -15,6 +16,8 @@ public class GameScreen extends ScreenAdapter {
     private Texture background;
     private SpriteBatch batch;
     private Player player;
+
+    private float elapsedTime;
 
     @Override
     public void show() {
@@ -27,24 +30,37 @@ public class GameScreen extends ScreenAdapter {
 
     @Override
     public void render(float delta) {
+        elapsedTime += delta;
         queryInput();
         batch.begin();
         batch.draw(background, 0, 0);
-        batch.draw(player.image(), player.getPosition().x(), player.getPosition().y());
+        TextureRegion frame = player.image().getKeyFrame(elapsedTime);
+        batch.draw(frame, player.getPosition().x(), player.getPosition().y());
         batch.end();
     }
 
     private void queryInput() {
+        player.setState(State.STANCE);
+
         movePlayerIfPressed(Input.Keys.LEFT);
         movePlayerIfPressed(Input.Keys.RIGHT);
         movePlayerIfPressed(Input.Keys.UP);
         movePlayerIfPressed(Input.Keys.DOWN);
+
+        punchIfPressed(Input.Keys.Q);
     }
 
     private void movePlayerIfPressed(int key) {
-        final int step = 5;
+        final int step = 3;
         if (Gdx.input.isKeyPressed(key)) {
             inputToMovement(key).accept(player.getPosition(), step);
+            player.setState(State.WALK);
+        }
+    }
+
+    private void punchIfPressed(int key) {
+        if (Gdx.input.isKeyPressed(key)) {
+            player.setState(State.PUNCH);
         }
     }
 

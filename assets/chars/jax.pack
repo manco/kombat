@@ -117,54 +117,47 @@ stance1
   index: -1
 stance2
   rotate: false
-  xy: 174, 159
+  xy: 257, 159
   size: 81, 136
   orig: 81, 136
   offset: 0, 0
   index: -1
 stance3
   rotate: false
-  xy: 257, 159
+  xy: 340, 159
   size: 81, 136
   orig: 81, 136
   offset: 0, 0
   index: -1
 stance4
   rotate: false
-  xy: 340, 159
+  xy: 165, 10
   size: 81, 136
   orig: 81, 136
   offset: 0, 0
   index: -1
 stance5
   rotate: false
-  xy: 165, 10
+  xy: 248, 21
   size: 81, 136
   orig: 81, 136
   offset: 0, 0
   index: -1
 stance6
   rotate: false
-  xy: 248, 21
+  xy: 331, 21
   size: 81, 136
   orig: 81, 136
   offset: 0, 0
   index: -1
 stance7
   rotate: false
-  xy: 331, 21
-  size: 81, 136
-  orig: 81, 136
-  offset: 0, 0
-  index: -1
-stance8
-  rotate: false
   xy: 414, 21
   size: 81, 136
   orig: 81, 136
   offset: 0, 0
   index: -1
-stance9
+stance8
   rotate: false
   xy: 497, 153
   size: 81, 136
